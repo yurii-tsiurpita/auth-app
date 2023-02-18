@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    display: grid;
+    width: 300px;
+}
+
+.form__username-input,
+.form__password-input {
+    width: 300px;
+}

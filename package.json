@@ -1,0 +1,14 @@
+{
+    "name": "auth-app",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "docker compose up -d",
+        "server:start:dev": "npm --prefix ./server run start:dev",
+        "client:start:dev": "npm --prefix ./client run start"
+    },
+    "keywords": [],
+    "author": "Yurii Tsiurpita",
+    "license": "ISC"
+}

@@ -1,0 +1,15 @@
+{
+    "name": "auth-client",
+    "version": "0.1.0",
+    "description": "",
+    "main": "client.js",
+    "type": "module",
+    "scripts": {
+        "start": "snowpack dev"
+    },
+    "author": "Yurii Tsiurpita",
+    "license": "ISC",
+    "dependencies": {
+        "snowpack": "^3.8.8"
+    }
+}

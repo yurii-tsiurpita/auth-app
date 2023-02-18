@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link href='style.css' rel='stylesheet'>
+    <title>Authenticator</title>
+</head>
+<body>
+    <form class='form'>
+        <div>
+            <label>Username</label>
+            <div>
+                <input class='form__username-input' type='username' placeholder='some username'>
+            </div>
+        </div>
+        <div>
+            <label>Password</label>
+            <div>
+                <input class='form__password-input' type='password' placeholder='some complex string'>
+            </div>
+        </div>
+        <button class='form__signup-button'>Зареєструватися</button>
+        <button class='form__signin-button'>Увійти</button>
+        <div class='form__result-text'></div>
+    </form>
+
+    <script src='client.js'></script>
+</body>
+</html>
